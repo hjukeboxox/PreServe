@@ -1,5 +1,13 @@
 # PreServe_hj
 
+<환경세팅>
+-자바 17 
+-gradle 빌드
+-DB: mysql
+-자바 17에 호환되는 dependencies 들의 버젼을 사용하였습니다.
+-카카오맵 api를 사용(거리계산할때 필요한 지도 좌표는 얻을려고)
+
+
 점주 가입 POST
 http://localhost:8080/auth/signup/partner
 
