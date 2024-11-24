@@ -1,7 +1,6 @@
 # PreServe_hj
 
 점주 가입 POST
-
 http://localhost:8080/auth/signup/partner
 
 {
@@ -39,7 +38,6 @@ http://localhost:8080/auth/signin
 
 
 매장 등록 POST
-
 http://localhost:8080/app/stores/register
 
 {
@@ -51,11 +49,10 @@ http://localhost:8080/app/stores/register
 
 
 매장 검색 POST
-  
+http://localhost:8080/app/stores/search
+
   //  orderType   "N" 이름 , "S" 별점순 , "D" 거리순 
   //  isAscending "Y" 오름차순 "N" 내림차순
-  
-http://localhost:8080/app/stores/search
 {
 	 "orderType":"N",
 	 "isAscending":"Y",
@@ -99,7 +96,6 @@ http://localhost:8080/app/stores/reviewEligibles/hong12
 
 
 예약 완료 후 사용 이후에 리뷰를 작성하는 기능 POST
-
 http://localhost:8080/app/stores/reviewWrite
 {
 	"reservId":3,
